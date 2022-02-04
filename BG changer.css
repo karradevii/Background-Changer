@@ -1,0 +1,31 @@
+body{
+    height: 100Vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .25s ease;
+
+}
+.container{
+    width: 500px;
+    height: 250px;
+    background: rgb(63, 62, 62);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+}
+.container button{
+    border: none;
+    outline: none;
+    padding: 16px 29px;
+    font-size: 17px;
+    font-weight: bold;
+    background: blanchedalmond;
+    cursor: pointer;
+}
